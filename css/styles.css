@@ -1,5 +1,6 @@
 /* Import Fonts */
 @import url(http://fonts.googleapis.com/css?family=Coustard|Open+Sans);
+@font-face { font-family: candy; src: url('candy.otf'); } 
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -11,7 +12,14 @@ body {
 	color: #777;
 	background: #000;
 }
-h1, h2, h3, h4, h5, h6{
+
+
+h1 {
+font-family: candy
+}
+
+
+h2, h3, h4, h5, h6{
 	font-family: 'Coustard', serif;
 	color:#fff;
 	font-weight: normal;
